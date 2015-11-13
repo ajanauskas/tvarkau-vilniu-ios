@@ -1,1 +1,3 @@
-# tvarkau-vilnius-ios
+# iTidy Vilnius
+
+Repozitorija "Tvarkau Vilnių" iOS programėlei.
