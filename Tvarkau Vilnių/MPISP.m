@@ -404,7 +404,7 @@ static NSInteger ERROR_CODE_EMPTY_RESPONSE = 91919111;
         return;
     }
     
-    NSURL *url = [NSURL URLWithString:@"http://www.vilnius.lt/m/m_problems/files/mobile/server.php"];
+    NSURL *url = [NSURL URLWithString:@"https://www.vilnius.lt/m/m_problems/files/mobile/server.php"];
     NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:url];
     [request addValue:@"application/json" forHTTPHeaderField:@"Content-type"];
     [request setHTTPMethod:@"POST"];
